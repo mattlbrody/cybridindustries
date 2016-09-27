@@ -32,10 +32,9 @@
  * 1. VARIABLES & MIXINS
  * ----------------------------------------------------------------------------------------
  */
-@import url(https://fonts.googleapis.com/css?family=Poppins:400,600);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+
 html, body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #2b2c2d;
   font-size: 12px;
@@ -74,7 +73,7 @@ table {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 600;
   color: #2b2c2d;
   clear: both;
@@ -231,7 +230,6 @@ pre code {
 }
 
 code {
-  font-family: "Courier New", "Courier", "Lucida Sans Typewriter", "Lucida Typewriter", "monospace";
   padding: 0.0875em 0.2625em;
   line-height: 0;
 }
@@ -375,7 +373,7 @@ td {
  * ----------------------------------------------------------------------------------------
  */
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -725,7 +723,7 @@ button:active, input[type="button"]:active, input[type="reset"]:active, input[ty
 }
 
 .btn {
-  font-family: "Poppins", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   height: 40px;
@@ -794,7 +792,7 @@ input[type="color"], input[type="date"], input[type="datetime"], input[type="dat
   border: 1px solid #ececec;
   background: #fff;
   padding: 0.618em 1em;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   box-shadow: none;
   min-height: 40px;
   width: 100%;
@@ -1096,12 +1094,12 @@ input[type="color"]:active, input[type="date"]:active, input[type="datetime"]:ac
 
 .main-header h1, .main-header .h1 {
   font-size: 4.236em;
-  font-family: "Poppins", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: bold;
 }
 
 .main-header h5 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: 400;
   color: #fff;
   margin-bottom: 1.618em;
@@ -1524,7 +1522,7 @@ footer .footer-bottom h6 {
 }
 
 .page-title h5 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   color: #787878;
   font-weight: 400;
 }
@@ -1703,7 +1701,7 @@ footer .footer-bottom h6 {
   line-height: 30px;
   width: 100%;
   left: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Helvetica Neue", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }

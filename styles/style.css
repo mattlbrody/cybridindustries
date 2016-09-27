@@ -1,5 +1,11 @@
 /*background anmimation*/
 
+* {
+	-webkit-font-smoothing: antialiased;
+	 text-rendering: optimizeLegibility;
+	
+}
+
 .bg {
 	/*Safari 5.1, Chrome 10+ */
   	background: -webkit-linear-gradient(left, #a763c1, #2f6af2, #848c9d);
@@ -42,21 +48,18 @@
   }
 }
 
-.main-header .h1, .main-header h1 {
-  font-family: 'Dosis', sans-serif;
-  margin: 0;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: subpixel-antialiased;
-  font-size:80px;
-  font-weight:300;
+.main-header .main-heading {
+font-family: 'Dosis', sans-serif;
+font-weight: 200;
 }
 
-.main-header h3 {
-  font-family: 'Dosis', sans-serif;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: subpixel-antialiased;
+.main-header .main-heading h1 {
+	margin: 0;
+  font-size:80px;
+}
+
+.main-header .main-heading h3 {
   font-size:50px;
-  font-weight:300;
 }
 
 #name {
