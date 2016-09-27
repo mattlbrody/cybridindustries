@@ -36,12 +36,11 @@
  * ----------------------------------------------------------------------------------------
  */
 // Import Google Fonts
-@import url(https://fonts.googleapis.com/css?family=Poppins:400,600);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+@import url(https://fonts.googleapis.com/css?family=Dosis:200);
 
 // Variables
-$se-body-font: 'Open Sans', sans-serif;
-$se-heading-font: 'Poppins', sans-serif;
+$se-body-font: 'Helvetica Neue', sans-serif;
+$se-heading-font: 'Dosis', sans-serif;
 $primary-color: #4aa3df;
 $white-color: #fff;
 $light-gray-color: #f9f9f9;
@@ -50,15 +49,15 @@ $black-color: #2b2c2d;
 $light-black-color: #787878;
 
 // Import bourbon & typographic
-@import "bourbon/bourbon";
-@import "bower_components/typographic/scss/typographic";
+// @import "bourbon/bourbon";
+// @import "bower_components/typographic/scss/typographic";
 
 // Typographic settings
 $body-font: $se-body-font;
-$body-font-weight: 400;
+$body-font-weight: 200;
 $body-color: $black-color;
 $header-font: $se-heading-font;
-$header-font-weight: 600;
+$header-font-weight: 200;
 $header-color: $black-color;
 $min-font: 12px;
 $max-font: 15px;
