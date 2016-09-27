@@ -3,6 +3,13 @@
 * {
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizeLegibility;
+	 font-family: "Helvetica Neue", Helvetiva, Arial, sans-serif;
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Helvetica Neue", Helvetiva, Arial, sans-serif;
+	font-weight: 300;
 	
 }
 
@@ -97,7 +104,7 @@ input {
   transition: transform .5s;
   width:50%;
   margin:0 auto;
-  top:70px;
+  top:50px;
 }
 
 .ready .subscribe {
@@ -112,7 +119,7 @@ input {
   height: 100%;
   background: transparent;
   font-size: 28px;
-  color: black;
+  color: white;
 }
 
 .subscribe-email::-webkit-input-placeholder {
@@ -157,20 +164,37 @@ input {
 
 input[type=submit] {
   margin:0;
+  
 }
 
 input:not([type]), input[type=password], input[type=color], input[type=date], input[type=datetime], input[type=datetime-local], input[type=month], input[type=number], input[type=search], input[type=tel], input[type=time], input[type=url], input[type=week], input[type=text], input[type=email], textarea {
-    border: 1px solid #ececec;
-    background: #fff;
+    /*border: 1px solid #ececec;*/
+    /*background: #fff;*/
     padding: .618em 1em;
     font-family: "Helvetice Neue",sans-serif;
     box-shadow: none;
     min-height: 40px;
-    width: 100%;
+    width: 70%;
 }
 .subscribe-email:focus ~ .subscribe-submit {
   -webkit-transform: none;
   transform: none;
+}
+
+#navtop form.subscribe input.subscribe-email {
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid white;
+}
+
+#navtop form.subscribe input.subscribe-submit {
+	/*background: transparent;*/
+	border: transparent;
+	color: white;
+}
+
+#navtop form.subscribe input.subscribe-submit:hover {
+	color: white;
 }
 
 @-webkit-keyframes magnify {
@@ -232,6 +256,7 @@ section.parallax-bg .black-gradient p {
 
 .se-section.offer-section.gray-section h4 {
   margin-bottom:25px;
+  font-family: "Helvetice Neue", sans-serif;
 }
 
 .offer-section {
