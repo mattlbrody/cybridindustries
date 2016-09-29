@@ -4,7 +4,7 @@
 
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+        
         <!-- ========== VIEWPORT META ========== -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
@@ -17,8 +17,13 @@
         <meta name="author" content="Cybrid Industries">
 
         <!-- ========== FAVICON & APPLE ICONS ========== -->
-        <link rel="shortcut icon" href="images/favicon.png">
-        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="/manifest.json">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="theme-color" content="#ffffff">
 
         <!-- ========== MINIFIED VENDOR CSS ========== -->
         <link rel="stylesheet" href="styles/stars.css">
@@ -52,8 +57,9 @@
     					<span class="icon-bar"></span>
     					<span class="icon-bar"></span>
     				</button> <!-- end navbar-toggle -->
-    				<a class="navbar-brand" href="index.html">
+    				<a class="navbar-brand" href="#navtop">
     					<img src="images/light-logo.png" alt="Cybrid Industries Logo" class="light-logo">
+                        <img src="images/dark-logo.png" alt="Cybrid Industries Logo" class="dark-logo">
     				</a> <!-- end navbar-brand -->
     			</div> <!-- end navbar-header -->
 
@@ -74,8 +80,8 @@
                         <li>
                             <a href="#benefits">Benefits</a>
                         </li>
-    					<li class="nav-btn-wrap">
-                            <span class="nav-btn"><a href="login.html" class="btn btn-rounded">Sign In</a></span>
+    					<li>
+                            <a href="login.html">Sign In</a>
                         </li>
     				</ul> <!-- end navbar-nav -->
 
@@ -84,7 +90,7 @@
     	</nav>
 
         <!-- ========== HEADER ========== -->
-        <header class="header main-header bg">
+        <header class="header main-header bg" id="navtop">
             <div id="stars"></div>
             <div id="stars2"></div>
             <div id="stars3"></div>
@@ -97,7 +103,7 @@
                         <h3 class="white-color main-heading">Conversational AI with Personality</h3>
                         <form class="subscribe" action="#">
                         <input type="email" class="subscribe-email" name="email" placeholder="Drop your email">
-                        <input type="submit" class="subscribe-submit" value="Submit">
+                        <input type="submit" class="subscribe-submit" value="SUBMIT">
                         </form>
                     </div> <!-- end inner -->
                 </div> <!-- end outer -->
@@ -327,12 +333,15 @@
         </section> <!-- end features-section -->
 
         <!-- ========== CTA SECTION ========== -->
-        <section class="se-section primary-bg">
+        <section class="se-section bg footer">
+            <div id="stars4"></div>
+            <div id="stars5"></div>
+            <div id="stars6"></div>
             <div class="container">
                 <div class="row text-center">
-                    <h3>Get your Cybrid now!</h3>
+                    <h3 class="white-color main-heading">Get your Cybrid now!</h3>
                     <br>
-                    <a href="#navtop" class="btn se-btn-black btn-rounded">Contact Us</a>
+                    <a href="#navtop" class="btn se-btn btn-rounded">Contact Us</a>
                 </div> <!-- end row -->
             </div> <!-- end container -->
         </section>

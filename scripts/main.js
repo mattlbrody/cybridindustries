@@ -20,3 +20,7 @@ document.addEventListener("scroll", function() {
     // get the active element and call blur
     document.activeElement.blur();
 });
+
+$(".subscribe-email").click(function(){
+    $(".subscribe-submit").fadeIn(1000);
+});
