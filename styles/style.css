@@ -377,7 +377,7 @@ input[type=email]:hover {
   background:#4aa3df;
 }
 
-.container-fluid {
+nav.navbar-fixed-top .container-fluid {
   padding-right:0;
 }
 
@@ -390,6 +390,16 @@ input[type=email]:hover {
   background:white;
   transition: all .4s ease-in-out;
 }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    color:white;
+    -webkit-text-fill-color: white !important;
+}
+
 
 
 
