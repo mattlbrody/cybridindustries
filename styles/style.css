@@ -4,13 +4,13 @@
 	-webkit-font-smoothing: antialiased;
 	 text-rendering: optimizeLegibility;
 	 font-family: "Helvetica Neue", Helvetiva, Arial, sans-serif;
-	
+
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Helvetica Neue", Helvetiva, Arial, sans-serif;
 	font-weight: 300;
-	
+
 }
 
 .bg {
@@ -183,13 +183,13 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: transparent;
   border:none;
-  
+
 }
 
 input[type=submit]:focus {
   background-color: transparent;
   border:none;
-  
+
 }
 
 input:not([type]), input[type=password], input[type=color], input[type=date], input[type=datetime], input[type=datetime-local], input[type=month], input[type=number], input[type=search], input[type=tel], input[type=time], input[type=url], input[type=week], input[type=text], input[type=email], textarea {
@@ -225,7 +225,7 @@ input:not([type]), input[type=password], input[type=color], input[type=date], in
   10% {
     -webkit-transform: scale(1.15) translateZ(0);
   }
-  
+
   20% {
     -webkit-transform: none;
   }
@@ -377,10 +377,6 @@ input[type=email]:hover {
   background:#4aa3df;
 }
 
-nav.navbar-fixed-top .container-fluid {
-  padding-right:0;
-}
-
 .bg.footer .btn.se-btn {
   background:transparent;
   border:1px solid white;
@@ -400,6 +396,105 @@ input:-webkit-autofill:active {
     -webkit-text-fill-color: white !important;
 }
 
+.navbar-toggle{
+	background-color: transparent;
+	border: 1px solid white;
+	padding: 12px 10px;
+}
 
+.navbar-toggle .icon-bar {
+  background: lightgrey;
+	height: 1px;
+}
 
+/*i phone 6 plus*/
 
+@media only screen and (max-width: 414px) {
+	h1.white-color.main-heading{
+		padding: 20px;
+	}
+
+	.subscribe{
+		width: 60%;
+	}
+
+	input.subscribe-email{
+		width: 90%;
+		padding: 0px;
+	}
+
+	.subscribe-submit{
+		width: 80px;
+		right: 0px;
+	}
+
+	.se-section.se-steps, .se-section.single-feature {
+		padding: 50px;
+	}
+
+	.single-feature .feature-desc h2{
+		width: 100%;
+	}
+
+	.se-section.features-section {
+		padding: 70px;
+	}
+
+	.se-section.features-section.parallax-bg{
+		padding: 5px;
+	}
+
+	.black-gradient {
+		padding: 1.5em 0;
+	}
+
+	.se-feature-style-2 .left {
+		padding-top: 10px;
+	}
+
+	#laptop img {
+		max-width: 60%;
+		position: relative;
+	}
+
+	.img-responsive.phone{
+		position: relative;
+		left: -13%;
+	}
+
+	.se-section.bg.footer{
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+
+}
+
+/*i phone 6*/
+
+@media only screen and (max-width: 375px){
+
+	.subscribe{
+		width: 70%;
+	}
+
+	input.subscribe-email{
+		width: 80%;
+		padding: 0px;
+	}
+
+}
+
+/*i phone 5*/
+
+@media only screen and (max-width: 320px){
+
+	.subscribe-submit{
+		width: 70px;
+		right: -5px;
+	}
+
+	a.learn-more{
+		display: block;
+	}
+
+}
