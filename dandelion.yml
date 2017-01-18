@@ -1,5 +1,5 @@
-adapter: ftp
-host: ftp.ord1-1.websitesettings.com
+adapter: sftp
+host: sftp.ord1-1.websitesettings.com
 port: 22
 username: codifyacademy
 password:  Cheenoman1
