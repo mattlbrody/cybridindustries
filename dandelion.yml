@@ -1,5 +1,5 @@
 adapter: ftp
-host: cybridindustries.com
+host: ftp.ord1-1.websitesettings.com
 port: 22
 username: codifyacademy
 password:  Cheenoman1
@@ -7,5 +7,6 @@ path: /www.cybridindustries.com/web/content
 
 exclude:
     - .gitignore
+    - dandelion.yml
 
 # dandelion deploy
