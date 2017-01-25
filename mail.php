@@ -3,7 +3,7 @@ $email = $_POST['contactemail'];
 
 $formcontent="Email: $email";
 
-$recipient = 'mattbrody@codifyacademy.com'; //my email
+$recipient = 'matt@cybridindustries.com'; //my email
 
 $subject = "new email from Cybrid Industries Website";
 $mailheader = "From: $email \r\n";
