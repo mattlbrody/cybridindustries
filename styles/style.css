@@ -437,11 +437,25 @@ input:-webkit-autofill:active {
 	}
 
 	.se-section.features-section {
-		padding: 70px;
+		padding: 30px;
 	}
 
 	.se-section.features-section.parallax-bg{
-		padding: 5px;
+		padding: 0px 30px;
+	}
+
+	.se-section#pricing {
+		padding:40px;
+	}
+
+	.se-section .se-plan.basic {
+		bottom: 30px;
+    position: relative;
+	}
+
+	.se-section.features-section.parallax-bg .icon{
+		position:relative;
+		bottom:12px
 	}
 
 	.black-gradient {
@@ -455,11 +469,12 @@ input:-webkit-autofill:active {
 	#laptop img {
 		max-width: 60%;
 		position: relative;
+		left:20%
 	}
 
 	.img-responsive.phone{
 		position: relative;
-		left: -13%;
+		left: 10%;
 	}
 
 	.se-section.bg.footer{
