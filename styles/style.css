@@ -23,6 +23,16 @@ h1, h2, h3, h4, h5, h6 {
 	padding-left: 15px;
 }
 
+@media(max-width: 414px){
+	.navbar-brand img {
+		height: 30px;
+	}
+
+	.navbar-brand {
+		width: 60%;
+	}
+}
+
 ul.nav.navbar-nav li{
 	font-size: 14px;
 	top: 15px;
@@ -425,6 +435,12 @@ input:-webkit-autofill:active {
 /*i phone 6 plus*/
 
 @media only screen and (max-width: 414px) {
+
+	section#pricing.se-section{
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
 	h1.white-color.main-heading{
 		padding: 20px;
 	}
@@ -452,11 +468,25 @@ input:-webkit-autofill:active {
 	}
 
 	.se-section.features-section {
-		padding: 70px;
+		padding: 30px;
 	}
 
 	.se-section.features-section.parallax-bg{
-		padding: 5px;
+		padding: 0px 30px;
+	}
+
+	.se-section#pricing {
+		padding:40px;
+	}
+
+	.se-section .se-plan.basic {
+		bottom:30px;
+		position:relative;
+	}
+
+	.se-section.features-section.parallax-bg .icon {
+		position:relative;
+		bottom:12px;
 	}
 
 	.black-gradient {
@@ -467,14 +497,16 @@ input:-webkit-autofill:active {
 		padding-top: 10px;
 	}
 
-	#laptop img {
-		max-width: 60%;
+	#laptop img, #dashboard-screen img {
+		max-width: 70%;
 		position: relative;
+		left:15%;
 	}
 
 	.img-responsive.phone{
 		position: relative;
-		left: -13%;
+		width: 70%;
+		left:25%;
 	}
 
 	.se-section.bg.footer{
